@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AutoBrain Protocol | $ABP Token</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background: #0a0b1e;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(20, 22, 45, 0.9);
+            padding: 40px;
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        h1 {
+            color: #9945FF;
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        .token-info {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin: 40px 0;
+        }
+        .token-box {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 30px;
+            border-radius: 15px;
+            border: 1px solid rgba(153, 69, 255, 0.3);
+        }
+        .token-value {
+            font-size: 36px;
+            font-weight: bold;
+            color: #14F195;
+            margin-bottom: 10px;
+        }
+        .btn {
+            background: linear-gradient(90deg, #6366f1, #9945FF);
+            color: white;
+            border: none;
+            padding: 18px 40px;
+            font-size: 18px;
+            border-radius: 10px;
+            cursor: pointer;
+            margin: 20px;
+            font-weight: bold;
+        }
+        .btn:hover {
+            transform: translateY(-3px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 AutoBrain Protocol</h1>
+        <p>Decentralized AI on Solana Blockchain</p>
+        
+        <div class="token-info">
+            <div class="token-box">
+                <div class="token-value">$ABP</div>
+                <div>Token Symbol</div>
+            </div>
+            <div class="token-box">
+                <div class="token-value">10B</div>
+                <div>Total Supply</div>
+            </div>
+            <div class="token-box">
+                <div class="token-value">45%</div>
+                <div>Community Allocation</div>
+            </div>
+        </div>
+        
+        <button class="btn">Connect Wallet to Start</button>
+        <button class="btn" style="background: linear-gradient(90deg, #14F195, #9945FF);">
+            Join Airdrop
+        </button>
+        
+        <div style="margin-top: 40px; padding: 20px; background: rgba(20, 241, 149, 0.1); border-radius: 10px;">
+            <h3>🌐 Website is Live on GitHub Pages!</h3>
+            <p>Your AutoBrain Protocol website is now online</p>
+            <p style="color: #14F195; font-weight: bold;">https://mdmethu082-alt.github.io/Autobrain-protocol/</p>
+        </div>
+    </div>
+    
+    <script>
+        // Simple interactivity
+        document.querySelectorAll('.btn').forEach(button => {
+            button.addEventListener('click', function() {
+                if(this.textContent.includes('Airdrop')) {
+                    alert('Airdrop coming soon! Connect Twitter to participate.');
+                } else {
+                    alert('Wallet connection would open here. Use Phantom wallet for Solana.');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
